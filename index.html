@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세계의 미술작품</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="container">
+    <header class="flex space-between">
+        <div class="logo"><a href="#"><img src="img/" alt="logo-image"></a></div>
+        <nav class="nav">
+            <ul class="flex">
+                <li><a href="#">소장처별</a>
+                    <ul class="submenu">
+                        <li><a href="#">한국</a></li>
+                        <li><a href="#">프랑스</a></li>
+                        <li><a href="#">이탈리아</a></li>
+                        <li><a href="#">독일</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">장르별</a>
+                    <ul class="submenu">
+                        <li><a href="#">회화</a></li>
+                        <li><a href="#">판화</a></li>
+                        <li><a href="#">공예/고대유물</a></li>
+                        <li><a href="#">그 외</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">테마별</a>
+                    <ul class="submenu">
+                        <li><a href="#">초상화/인물</a></li>
+                        <li><a href="#">종교</a></li>
+                        <li><a href="#">신화/문학</a></li>
+                        <li><a href="#">일상/스포츠</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">시대별</a>
+                    <ul class="submenu">
+                        <li><a href="#">1900년이전</a></li>
+                        <li><a href="#">1900년대</a></li>
+                        <li><a href="#">현대</a></li>
+                        <li><a href="#">그 외</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="submenu-bg"></div>
+    </header>
+
+    <!-- slide part -->
+    <div id="slide">
+        <div class="slide-con">
+            <div class="slide_img"><a href="#"><img src="img/slide-1-img.png" alt="image-1"></a></div>
+            <div class="slide_img"><a href="#"><img src="img/slide-2-img.png" alt="image-2"></a></div>
+            <div class="slide_img"><a href="#"><img src="img/slide-img-3.png" alt="image-3"></a></div>
+        </div>
+    </div>
+
+    <!-- section part  -->
+    <section class="flex">
+        <div id="notice">
+            <div class="notice-top"><h2>공지사항</h2></div>
+            <ul class="notice-bottom">
+                <li><a href="#">공지사항입니다 21/11/28</a></li>
+                <li><a href="#">공지사항입니다 21/11/27</a></li>
+                <li><a href="#">공지사항입니다 21/11/26</a></li>
+            </ul>
+        </div>
+        <div id="gallery">
+            <div class="gallery-top"><h2>갤러리</h2></div>
+            <ul class="gallery-bottom flex space-around">
+                <li><a href="#"><img src="img/" alt="gallery-image-1"></a></li>
+                <li><a href="#"><img src="img/" alt="gallery-image-2"></a></li>
+                <li><a href="#"><img src="img/" alt="gallery-image-3"></a></li>
+            </ul>
+        </div>
+        <div id="banner">
+            <img src="img/" alt="banner-image">
+            <p>배너</p>
+        </div>
+    </section>
+
+    <!-- footer part -->
+    <footer class="flex">
+        <div class="logo"><img src="img/" alt="footer-logo-image"></div>
+        <div class="copyright">Copyright 2021. 세계의 미술작품 inc. all rights reserved.</div>
+        <div class="sns"><img src="img/" alt="sns"></div>
+    </footer>
+</div>
+    
+    <div id="modal" class="hidden"></div>
+    <div id="pop-up" class="hidden">
+        <h1>타이틀</h1><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dicta quaerat recusandae aut sint necessitatibus pariatur tempore. Dolorem voluptatum tempora error blanditiis, quo accusamus laborum ullam similique porro labore perspiciatis sequi itaque. Totam quaerat voluptatem iure id. Sequi, minus facere?</p>
+        <br><button>x 닫기</button>
+    </div>
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/myscript.js"></script>
+</body>
+</html>
